@@ -1,0 +1,74 @@
+/* Основные настройки страницы */
+body {
+  font-family: "Segoe UI"; /* Шрифт  */
+  background-color: #d1c4e9; /* Светло-фиолетовый фон */
+  padding: 20px; /* Отступы внутри body */
+}
+
+/* Контейнер  */
+.todo-container {
+  background-color: #E6E6FA; /* Lavender фон контейнера */
+  max-width: 800px; /* Максимальная ширина */
+  margin: auto; /* Центрирование по горизонтали */
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 10px; /* Закругленные углы */
+
+}
+
+/* Заголовок приложения */
+h1 {
+  color: #5e35b1; /* Фиолетовый цвет текста */
+  text-align: center; /* Выравнивание по центру */
+  
+}
+
+/* Форма для добавления задач */
+#task-form {
+  display: flex; /* Гибкое расположение элементов */
+}
+
+/* Поле ввода текста */
+#task-input {
+  flex: 1; /* Занимает все доступное пространство */
+  padding: 15px; /* Внутренние отступы */
+  border: 5px solid #d1c4e9; /* Фиолетовая граница */
+  border-radius: 10px; /* Закругленные углы */
+  font-family: "Segoe UI"; /* Шрифт  */
+}
+
+/* Кнопка добавления */
+#task-form button {
+  font-family: "Segoe UI"; /* Шрифт  */
+  padding: 10px 100px; /* Внутренние отступы */
+  background-color: #5e35b1; /* Фиолетовый фон */
+  color: #E6E6FA; /* Lavender текст */
+  border: none; /* Без границы */
+  border-radius: 10px; /* Закругленные углы */
+  margin-left: 10px; /* Отступ слева */
+}
+
+/* Список задач */
+#task-list {
+
+; /* Убираем внутренние отступы */
+  color: #5e35b1; /* Фиолетовый цвет текста */ 
+}
+#task-list li span {
+font-family: "Segoe UI"; /* Желаемый шрифт */
+  font-size: 26px;  /* Размер шрифта */
+}
+/* Элемент списка задач */
+#task-list li {
+  font-size: 25px;/* Размер шрифта */
+  padding: 10px; /* Внутренние отступы */
+  border-bottom: 1px solid #eee; /* Граница снизу */
+  display: flex; /* Гибкое расположение элементов */
+  justify-content: space-between; /* Распределение по ширине */
+}
+.delete-btn {
+  color: #ff4444; /* Красный цвет */
+  font-size: 40px; /* Размер шрифта */
+  background: none; /* Прозрачный фон */
+  border: none; /* Без границы */
+  cursor: pointer; /* Курсор-указатель
+  
